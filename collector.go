@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tuxdude/cablemodemutil"
+	"github.com/tuxgal/cablemodemutil"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

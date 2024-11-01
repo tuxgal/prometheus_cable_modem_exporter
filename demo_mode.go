@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/tuxdude/cablemodemutil"
+	"github.com/tuxgal/cablemodemutil"
 )
 
 type demoModeCableModemStatusFetcher struct {

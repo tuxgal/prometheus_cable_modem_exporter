@@ -1,16 +1,16 @@
 package main
 
 import (
-	"github.com/tuxdude/zzzlog"
-	"github.com/tuxdude/zzzlogi"
+	"github.com/tuxgal/tuxlog"
+	"github.com/tuxgal/tuxlogi"
 )
 
 var (
 	log = buildLogger()
 )
 
-func buildLogger() zzzlogi.Logger {
-	config := zzzlog.NewConsoleLoggerConfig()
-	config.MaxLevel = zzzlog.LvlDebug
-	return zzzlog.NewLogger(config)
+func buildLogger() tuxlogi.Logger {
+	config := tuxlog.NewConsoleLoggerConfig()
+	config.MaxLevel = tuxlog.LvlDebug
+	return tuxlog.NewLogger(config)
 }
